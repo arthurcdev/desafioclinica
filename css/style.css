@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(29, 151, 230);
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: rgb(29, 151, 230);
+  padding: 10px 20px 0px;
+}
+.menu p,
+.menu-footer {
+  color: #fff;
+}
+.menu-footer h4 {
+  color: #fff;
+  background-color: #13659c;
+  padding: 1px 2px;
+}
+.menu a,
+.menu-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu a:hover,
+.menu li:hover,
+.menu-footer a:hover,
+.menu-footer li:hover {
+  color: #ffa32a;
+}
+.menu li,
+.menu-footer li {
+  font-size: 20px;
+  color: #fff;
+}
+.menu-footer {
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  min-height: 150px;
+}
+.content {
+  display: flex;
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  display: flex;
+  background-color: rgb(29, 151, 230);
+  min-height: 150px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.corpo_content {
+  margin-top: 0;
+  margin-left: 20px;
+  color: #13659c;
+  width: 65%;
+}
+.corpo_content h1 {
+  color: #ee9014;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+.corpo_content p {
+  text-align: justify;
+}
+table {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffddb0;
+}
+table th {
+  background-color: #13659c;
+  color: #fff;
+}
+table tr:hover td {
+  background-color: #91d3ff;
+}
+button {
+  background-color: #13659c;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+button:hover {
+  background-color: #ee9014;
+}
